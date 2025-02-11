@@ -12,7 +12,7 @@ namespace Awaker
             InitializeComponent();
 
             // Default
-            textMinute.Text = (360).ToString();
+            textMinute.Text = (180).ToString();
             this.FormClosing += (obj, e) => UseNormalMode();
 
             UseAwakeMode();

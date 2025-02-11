@@ -39,17 +39,18 @@ namespace Awaker
             // 
             // textMinute
             // 
-            this.textMinute.Location = new System.Drawing.Point(20, 20);
-            this.textMinute.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textMinute.Font = new System.Drawing.Font("新細明體", 14F);
+            this.textMinute.Location = new System.Drawing.Point(13, 13);
+            this.textMinute.Margin = new System.Windows.Forms.Padding(4);
             this.textMinute.Name = "textMinute";
-            this.textMinute.Size = new System.Drawing.Size(85, 29);
+            this.textMinute.Size = new System.Drawing.Size(94, 41);
             this.textMinute.TabIndex = 0;
             this.textMinute.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(116, 24);
+            this.label1.Location = new System.Drawing.Point(115, 23);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(36, 18);
