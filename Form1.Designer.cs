@@ -73,7 +73,7 @@ namespace Awaker
             this.MinimizeBox = false;
             this.Name = "Form1";
             this.Opacity = 0.6D;
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
             this.Text = "Awaker";
             this.TopMost = true;
             this.ResumeLayout(false);

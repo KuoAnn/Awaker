@@ -17,6 +17,13 @@ namespace Awaker
 
             UseAwakeMode();
             Countdown();
+
+            // 設定視窗顯示於螢幕右下角
+            var screen = Screen.PrimaryScreen.WorkingArea;
+            this.Location = new Point(
+                screen.Right - this.Width,
+                screen.Bottom - this.Height
+            );
         }
 
         public void UseNormalMode()
