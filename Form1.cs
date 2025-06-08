@@ -38,9 +38,14 @@ namespace Awaker
 
                 try
                 {
-                    updateTextMinute((Convert.ToDecimal(textMinute.Text) - 1).ToString());
+                    decimal minuteValue;
+                    if (!decimal.TryParse(textMinute.Text, out minuteValue))
+                    {
+                        minuteValue = 180;
+                    }
+                    updateTextMinute((minuteValue - 1).ToString());
 
-                    if (Convert.ToDecimal(textMinute.Text) <= decimal.Zero)
+                    if (minuteValue - 1 <= decimal.Zero)
                     {
                         if (sender != null)
                         {
